@@ -1,0 +1,50 @@
+Metadata-Version: 2.2
+Name: pysummarizer
+Version: 0.1.0
+Summary: A flexible text summarization library supporting extractive and abstractive methods.
+Home-page: https://github.com/yourusername/pysummarizer
+Author: fardeenKhadri
+Author-email: FARDEEN KHADRI <fardeeinshakhadrii@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/pysummarizer
+Project-URL: Repository, https://github.com/yourusername/pysummarizer
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: sumy
+Requires-Dist: transformers
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# PySummarizer
+
+PySummarizer is a flexible text summarization library supporting **extractive** and **abstractive** summarization.
+
+## Features
+- Supports **TextRank, LSA, and LexRank** algorithms for extractive summarization.
+- Simple **CLI support** for summarization from the terminal.
+- Easy integration into Python projects.
+
+## Working 
+1. Install the library using pip: `pip install pysummarizer`
+2. Import the library in your Python project: `from pysummarizer import summarizer`
+3. Write the following code 
+
+`import pysummariser as pyss
+
+# User input paths
+pdf_path = "sample.pdf"
+output_file = "summary.txt"
+
+# Summarize the PDF and save the summary
+pyss.summarize_pdf(pdf_path, output_file, method="textrank", summary_type="extractive")#change the type of summary to extractive or abstractive
+
+4. Run the code to generate the summary.
+`
