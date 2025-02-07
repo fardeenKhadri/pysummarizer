@@ -24,11 +24,11 @@ pip install pysummarizer
 🚀 How to Use PySummarizer
 
 1️⃣ Import the Library
-`import pysummarizer as pyss`
+import pysummarizer as pyss
 
 2️⃣ Set PDF File Paths
-`pdf_path = "sample.pdf"      # Input PDF file`
-`output_file = "summary.txt"  # Output summary file`
+pdf_path = "sample.pdf"      # Input PDF file
+output_file = "summary.txt"  # Output summary file
 
 3️⃣ Generate Summary (Extractive or Abstractive)
 pyss.summarize_pdf(
