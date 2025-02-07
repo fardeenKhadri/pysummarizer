@@ -17,14 +17,14 @@ PySummarizer is a **flexible and efficient** text summarization library that sup
 
 ## **🛠 Installation**
 To install PySummarizer, run:
-```bash
-pip install pysummarizer
+bash
+```pip install pysummarizer```
 
 
 🚀 How to Use PySummarizer
 
 1️⃣ Import the Library
-import pysummarizer as pyss
+```import pysummarizer as pyss```
 
 2️⃣ Set PDF File Paths
 pdf_path = "sample.pdf"      # Input PDF file
@@ -40,6 +40,6 @@ pyss.summarize_pdf(
 
 
 4️⃣ Run the Code & Check Output
-python script.py
+```python script.py```
 
 
