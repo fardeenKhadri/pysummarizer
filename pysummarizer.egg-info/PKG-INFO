@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.2
 Name: pysummarizer
 Version: 0.1.0
 Summary: A flexible text summarization library supporting extractive and abstractive methods.
@@ -19,6 +19,9 @@ Requires-Dist: pytest; extra == "dev"
 Requires-Dist: black; extra == "dev"
 Requires-Dist: mypy; extra == "dev"
 Requires-Dist: isort; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
 
 ### **🚀 PySummarizer - The Ultimate Text Summarization Library**
 
@@ -122,4 +125,4 @@ PySummarizer is released under the **MIT License**, making it **open-source and 
 🎯 **Transform lengthy PDFs into structured insights with PySummarizer today!**  
 🔗 **Contribute or explore more:** [GitHub Repository](https://github.com/fardeenKhadri/pysummarizer)  
 
-🚀 **Try it now and elevate your text summarization workflow!** 😊
+
